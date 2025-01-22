@@ -10,14 +10,11 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "License :: OSI Approved :: MIT License",
 ]
 
-dependencies = [
-    "httpx >= 0.25,< 0.29",
-    "beautifulsoup4 ~= 4.12.2",
-    "lxml >= 4.9.3,< 5.4.0",
-]
+dependencies = []
 
 [project.optional-dependencies]
 build = [
@@ -35,5 +32,5 @@ format = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/ukwhatn/wikidot.py"
-"Bug Tracker" = "https://github.com/ukwhatn/wikidot.py/issues"
+"Homepage" = "https://github.com/ukwhatn/pypi-package-template"
+"Bug Tracker" = "https://github.com/ukwhatn/pypi-package-template/issues"
